@@ -14,7 +14,7 @@
 #include <assimp/postprocess.h>
 
 
-#include "shader_program_controller.h"
+#include "ogl_shader_API/shader_program_controller.h"
 
 #include <string>
 #include <fstream>
@@ -22,7 +22,7 @@
 #include <iostream>
 #include <map>
 #include <vector>
-#include "util.hpp"
+#include "ogl_shader_API/util.hpp"
 
 
 using namespace std;

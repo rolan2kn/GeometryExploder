@@ -13,7 +13,6 @@ using namespace std;
 #include <fstream>
 #include <sstream>
 
-#include "util.hpp"
 
 /**
  * constructor de Shader

@@ -5,8 +5,8 @@
 #ifndef GEOMETRYEXPLODER_DATA_SETTINGS_H
 #define GEOMETRYEXPLODER_DATA_SETTINGS_H
 #include <iostream>
-#include "util.hpp"
-#include "shader_program_controller.h"
+#include "ogl_shader_API/util.hpp"
+#include "ogl_shader_API/shader_program_controller.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>

@@ -4,8 +4,8 @@ project(GeometryExploder)
 find_package(OpenCV REQUIRED)
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp ~/glad/src/glad.c util.cpp util.hpp shader_controller.cpp shader_program_controller.cpp model_settings_controller.cpp)
-set(HEADER_FILES mesh.h camera.h model.h shader_controller.h model_settings_controller.h shader_program_controller.h  data_buffer.cpp data_buffer.h)
+set(SOURCE_FILES main.cpp ~/glad/src/glad.c ogl_shader_API/util.cpp ogl_shader_API/util.hpp ogl_shader_API/shader_controller.cpp ogl_shader_API/shader_program_controller.cpp model_settings_controller.cpp)
+set(HEADER_FILES mesh.h camera.h model.h ogl_shader_API/shader_controller.h ogl_shader_API/shader_program_controller.h  ogl_shader_API/data_buffer.cpp ogl_shader_API/data_buffer.h model_settings_controller.h)
 
 set(dir ${CMAKE_CURRENT_SOURCE_DIR})
 

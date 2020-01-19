@@ -11,11 +11,11 @@
 #include "camera.h"
 #include "model.h"
 
-#include "util.hpp"
+#include "ogl_shader_API/util.hpp"
 
 #include <iostream>
 
-#include "shader_program_controller.h"
+#include "ogl_shader_API/shader_program_controller.h"
 #include "model_settings_controller.h"
 
 

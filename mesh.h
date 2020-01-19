@@ -8,8 +8,8 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
-#include "shader_program_controller.h"
-#include "data_buffer.h"
+#include "ogl_shader_API/shader_program_controller.h"
+#include "ogl_shader_API/data_buffer.h"
 
 #include <string>
 #include <fstream>
